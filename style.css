@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ #main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+ }
+
+ #left{
+    height: 100%;
+    width: 50%;
+ }
+ #right{
+    height: 100%;
+    width: 50%;
+   
+ }
+
+#nav{
+    height: 90px;
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ #navleft #logo{
+    height: 30px;
+    margin-right: 120px;
+
+ }
+
+ #navleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+#navright i{
+     margin-right: 50px;
+    font-weight: 20px;
+    font-size: 20px; 
+}
+
+
+#navright i:hover{
+    margin-top: 3px;
+}
+
+#navleft h4{
+    margin-right: 70px;
+    font-weight: 18px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+#navleft h4:hover{
+    text-decoration: underline;
+    margin-top: 3px;
+   
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    position: relative;
+}
+
+#conleft{
+    height: 100%;
+    width: 39%;
+    padding: 100px 120px;
+}
+
+#conright{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 61%;
+    white-space: nowrap;
+    overflow-x: auto; 
+}
+#conright::-webkit-scrollbar{
+    display: none;
+}
+
+#conleft h5{
+    font-size: 13px;
+    color: #859191;
+    margin-bottom: 18px;
+}
+
+#conleft h1{
+    font-size: 55px;
+    font-weight: 75px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+#conleft p{
+    width: 85%;
+    font-family: 13px;
+    color: #859191;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 50px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.element{
+    margin-top: 55px;
+    padding: 5px;
+    height: 480px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(76, 72, 72);
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.element img{
+    position: absolute;
+    top: 18%;
+    left: 6%;
+    height: 60%;
+    width: 90%;
+
+}
+.element h4{
+    background-color: #b7babb;
+    color: rgb(61, 59, 59);
+    padding: 16px 60px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-top-right-radius: 0;
+}
+
+.element h5{
+    background-color: black;
+    color: #9caaaa;
+    padding: 13px 24px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+    border-bottom-right-radius: 0;
+    font-weight: 700;
+}
+
